@@ -82,7 +82,7 @@ codeiconthree()
 setInterval(codeiconthree,4000)
 
 const moveup = document.querySelector('.moveup');
-
+// kjskjjsj
 moveup.addEventListener('click',()=>{
   window.scroll(0,0);
 })
