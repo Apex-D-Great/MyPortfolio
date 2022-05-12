@@ -193,7 +193,7 @@ img{
 .navbar.sticky .nav-item .nav-link span,.navbar.sticky .nav-item .nav-link span::before,.navbar.sticky .nav-item .nav-link span::after{
     background-color: var(--main-color);
 }
-.navbar .nav-item > .nav-link.active span,.navbar .nav-item:hover > .nav-link span{
+.navbar .nav-item > .nav-link span,.navbar .nav-item:hover > .nav-link span{
     opacity: 1;
     width: 60%;
     visibility: visible;
