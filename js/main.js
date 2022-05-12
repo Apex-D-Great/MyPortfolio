@@ -82,7 +82,24 @@ codeiconthree()
 setInterval(codeiconthree,4000)
 
 const moveup = document.querySelector('.moveup');
-// kjskjjsj
 moveup.addEventListener('click',()=>{
   window.scroll(0,0);
 })
+
+// toggle effect
+
+const navmenu = document.querySelector('.menu')
+const navicon= document.querySelector('.nav-icon')
+
+  navicon.addEventListener('click', ()=>{
+      navmenu.classList.toggle('active');
+  })
+
+  // closing menu when link is clicked 
+  const navlink = document.querySelectorAll('.nav-link');
+  navlink.forEach((m)=>{
+    m.addEventListener('click',()=>{
+      const navmenu = document.querySelector('.menu');
+      navmenu.classList.remove('active')
+    })
+  })

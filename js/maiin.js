@@ -1,3 +1,4 @@
+
 $(document).ready(()=>{
     $('.owl-carousel').owlCarousel({
       items: 3,
@@ -7,6 +8,21 @@ $(document).ready(()=>{
       dots: false,
       nav: true,
       navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
-    }) //carousel;
+      responsive: responsive,
+    }); //carousel;
 
   });
+  const responsive = {
+    0:{
+        items:1
+    },
+    320:{
+        items:1
+    },
+    560:{
+        items:2
+    },
+    960:{
+        items:3
+    }
+}
