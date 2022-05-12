@@ -1,4 +1,4 @@
-@import url(../css/fonts.css);
+@import url(../css/fonts.cssag);
 
 html{
     scroll-behavior: smooth;
@@ -481,7 +481,7 @@ img{
 
 /* ------------portfolio section (carousel)----------------------- */
 .portfolio .container{
-    background-image: url('/image/Abract01.png');
+    background-image: url('./image/Abract01.png');
     background-position: right;
     background-repeat: no-repeat;
     background-size:50%;
