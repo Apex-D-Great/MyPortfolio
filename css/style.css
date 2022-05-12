@@ -8,11 +8,11 @@ html{
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: hidden;
 }
 body{
     background-color: white;
     font-family: var(--lex);
-    overflow-x: hidden;
 }
 
 /*-------Variables-----------*/
@@ -102,8 +102,8 @@ img{
 .navbar{
     position: fixed;
     z-index: 999;
-    width: 100%;
     padding: 15px;
+    width: 100%;
 }
 .navbar.sticky{
     padding: 10px 25px;
@@ -604,6 +604,8 @@ footer .row .move-up{
     .navbar .nav-icon{
         display: block;
         z-index: 99;
+        align-items: center;
+        text-align: center;
     }
     .home-section .home-text{
         margin-bottom: 0;
@@ -614,8 +616,9 @@ footer .row .move-up{
         top: 60px;
         background-color: var(--main-color);
         flex-direction: column;
-        width: 100%;
+        width:100%;
         text-align: center;
+        justify-content: center;
     }
     .navbar .menu .nav-item{
         display: block;
