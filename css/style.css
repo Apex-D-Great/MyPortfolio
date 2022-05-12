@@ -523,9 +523,7 @@ section .container .owl-theme .owl-nav [class*='owl-']:hover{
 
 /* ------------contact section------------------ */
 .contact-section{
-    min-height: 100vh;
     background-color: var(--black-100);
-
 }
 .boxes{
     width: 100%;

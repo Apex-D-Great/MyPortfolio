@@ -10,7 +10,9 @@ $(document).ready(()=>{
       navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
       responsive: responsive,
     }); //carousel;
-
+    
+    // AOS init
+    AOS.init();
   });
   const responsive = {
     0:{

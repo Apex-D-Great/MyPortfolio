@@ -11,6 +11,8 @@
     <!----------owl corousel------------>
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-----------aos effect---------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-----------font awesome------->
     <link rel="stylesheet" href="./css/all.css">
@@ -46,7 +48,8 @@
         </ul>
         <div class="container">
             <div class="row align-center">
-                <div class="home-text">
+                <div class="home-text" data-aos="fade-up"
+                data-aos-duration="3000">
                     <h4><i>Hello!</i></h4>
                     <h1>I'm Apelogun Emmanuel</h1>
                     <span>Frontend Developer</span>
@@ -63,7 +66,9 @@
                 </div>
                 <div class="home-image">
                     <div class="img-box">
-                        <img src="./image/apex.png" alt="image">
+                        <img src="./image/apex.png" alt="image" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                     </div>
                 </div>
             </div>
@@ -78,13 +83,17 @@
     <section class="about-section section-padding" id="about">
         <div class="container">
             <div class="row align-center">
-                <div class="about-image">
+                <div class="about-image" data-aos="flip-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="img-box">
                         <img src="/image/apex2.png" alt="image">
                         <div class="about-shape"></div>
                     </div>
                 </div>
-                <div class="about-content">
+                <div class="about-content" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="section-title">
                         <h5 class="sub-title">About</h5>
                         <h3 class="main-title">Why should you hire me?</h3>
@@ -162,7 +171,9 @@
             </div>
             <div class="row align-center">
                  <!------------service item-------------->
-                 <div class="service-item">
+                 <div class="service-item" data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                     <div class="service-item-inner">
                         <div class="icon">
                             <i id="code" class="fas fa"></i>
@@ -177,7 +188,9 @@
                 <!------x------service item------x-------->
 
                 <!------------service item-------------->
-                <div class="service-item">
+                <div class="service-item" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="service-item-inner">
                         <div class="icon">
                             <i id="design" class="fas fa"></i>
@@ -191,7 +204,9 @@
 
                 <!------x------service item------x-------->
                 <!------------service item-------------->
-                <div class="service-item">
+                <div class="service-item" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="service-item-inner">
                         <div class="icon">
                             <i id="server" class="fas fa"></i>
@@ -225,7 +240,9 @@
                     </ul>
                 </div> <!------section title---------->
             <!-------------portfolio content---------------->
-            <div class="owl-carousel owl-theme blog-post">
+            <div class="owl-carousel owl-theme blog-post" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="blog-content">
                     <img src="./image/instagram/thumb-card5.png" alt="post1">
                     <div class="blog-title">
@@ -276,7 +293,9 @@
             </div> <!------section title---------->
             <div class="row boxes">
                      <!----------contact item start----------------->
-                     <div class="contact-item">
+                     <div class="contact-item" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500">
                         <div class="contact-item-inner">
                             <i class="fas fa-envelope"></i>
                             <span>EMAIL</span>
@@ -284,7 +303,7 @@
                             <div></div>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item" data-aos="fade-left" data-aos-delay="1000">
                         <div class="contact-item-inner">
                             <i class="fas fa-phone"></i>
                             <span>PHONE</span>
@@ -292,7 +311,9 @@
                             <div></div>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <div class="contact-item-inner">
                             <i class="fas fa-map-marker-alt"></i>
                             <span>ADDRESS</span>
@@ -327,5 +348,6 @@
     <script src="./js/jquery3.6.0.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/maiin.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>
