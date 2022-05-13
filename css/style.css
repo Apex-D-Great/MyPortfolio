@@ -1,4 +1,4 @@
-@import url(../css/fonts.cssag);
+@import url(../css/fonts.css);
 
 html{
     scroll-behavior: smooth;
@@ -8,11 +8,12 @@ html{
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    overflow-x: hidden;
+    
 }
 body{
     background-color: white;
     font-family: var(--lex);
+    overflow-x: hidden;
 }
 
 /*-------Variables-----------*/
@@ -41,6 +42,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 ul{
     list-style: none;
@@ -283,6 +285,9 @@ img{
     position: relative;
     z-index: 700;
 }
+.home-section .home-image{
+    position: relative;
+}
 .hero-shape{
     position: absolute;
     right: 0;
@@ -388,7 +393,7 @@ img{
     border-radius: 5px;
     top: 0;
     left: 0;
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 .skill-item .skill-bar .bar-inner .progress-line::before{
     position: absolute;
@@ -435,33 +440,6 @@ img{
     border-radius: 20px;
     border-bottom-right-radius: 0;
 }
-/* .service-section .service-item-inner .icon::before{
-    content: '';
-    position: absolute;
-    width: 150%;
-    height: 140%;
-    background-color: rgb(80, 80, 219,0.52);
-    left: -155%;
-    top: 92px;
-    border-radius: 20px;
-}
-.service-section .service-item-inner .icon:hover::before{
-    animation: aaa 0.9s infinite;
-    left: 60px;
-    top: -90px;
-}
-@keyframes aaa {
-    0%{
-        left: -110%;
-        top: -50px;
-    }50%{
-        top:19px;
-        right:-40px;
-    }100%{
-        right: 5px;
-        bottom: 5px;
-    }
-} */
 
 .service-section .service-item-inner .icon i{
     line-height: 63px;

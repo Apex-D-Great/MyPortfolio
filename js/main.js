@@ -53,10 +53,10 @@ function codeiconone(){
   code.innerHTML = "&#xf121;";
   setTimeout(function(){
     code.innerHTML = "&#xf5fc;";
-  },2000);
+  },1000);
 }
 codeiconone()
-setInterval(codeiconone,4000)
+setInterval(codeiconone,2000)
 
 
 function codeicontwo(){
@@ -64,10 +64,10 @@ function codeicontwo(){
   code.innerHTML = "&#xf3cd;";
   setTimeout(function(){
     code.innerHTML = "&#xf53f;";
-  },2000);
+  },1000);
 }
 codeicontwo()
-setInterval(codeicontwo,4000)
+setInterval(codeicontwo,2000)
 
 
 //  move up
@@ -76,10 +76,10 @@ function codeiconthree(){
   code.innerHTML = "&#xf233;";
   setTimeout(function(){
     code.innerHTML = "&#xe13c;";
-  },2000);
+  },1000);
 }
 codeiconthree()
-setInterval(codeiconthree,4000)
+setInterval(codeiconthree,2000)
 
 const moveup = document.querySelector('.moveup');
 moveup.addEventListener('click',()=>{
