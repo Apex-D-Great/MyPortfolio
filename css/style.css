@@ -6,9 +6,7 @@ html{
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
-    
 }
 body{
     background-color: white;
@@ -42,7 +40,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 ul{
     list-style: none;
@@ -309,7 +307,6 @@ img{
 .about-section .about-content{
     flex: 0 0 50%;
     max-width: 50%;
-    padding: 10px;
 }
 .about-section .about-image .img-box{
     position: relative;
@@ -413,12 +410,11 @@ img{
 }
 
 .service-section .service-item{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 30%;
+    max-width: 30%;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 20px;
-    height: fit-content;
+    margin: 10px;
 }
 .service-section .service-item .service-item-inner{
     box-shadow: var(--shadow-black);
@@ -459,7 +455,7 @@ img{
 
 /* ------------portfolio section (carousel)----------------------- */
 .portfolio .container{
-    background-image: url('./image/Abract01.png');
+    background-image: url('../image/Abract01.png');
     background-position: right;
     background-repeat: no-repeat;
     background-size:50%;
@@ -584,6 +580,8 @@ footer .row .move-up{
         z-index: 99;
         align-items: center;
         text-align: center;
+        box-sizing: border-box;
+        margin: 0 30px;
     }
     .home-section .home-text{
         margin-bottom: 0;
@@ -659,8 +657,8 @@ footer .row .move-up{
     .service-section .service-item,
     .contact-section .contact-item
     {
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 90%;
+        max-width: 90%;
     }
     .home-section .home-text{
         width: 100%;
@@ -669,6 +667,11 @@ footer .row .move-up{
     .home-section .home-image .img-box img{
         width: 100%;
         margin-bottom: 110px;
+    }
+    .about-section .about-content{
+      padding: 0 10px;
+      flex: 0 0 95%;
+      max-width: 95%;
     }
 
 }
